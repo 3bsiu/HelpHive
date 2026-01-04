@@ -20,7 +20,7 @@ session_start();
 
 $userMessage = '';
 $chatHistory = [];
-$GEMINI_API_KEY = 'AIzaSyBQaGJbWOt7GFMnCHU2PgNCeUjuIBNDgJw';
+$GEMINI_API_KEY = 'AIzaSDgJw';
 $GEMINI_MODELS = [
     ['model' => 'gemini-2.5-flash', 'version' => 'v1beta'],
     ['model' => 'gemini-1.5-flash', 'version' => 'v1beta'],
@@ -293,4 +293,5 @@ try {
     ]);
 }
 ?>
+
 

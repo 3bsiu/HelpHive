@@ -1,5 +1,5 @@
 <?php
-$GEMINI_API_KEY = 'AIzaSyBQaGJbWOt7GFMnCHU2PgNCeUjuIBNDgJw';
+$GEMINI_API_KEY = 'AIzaSyBQaGJbeUjuIBNDgJw';
 
 $modelsToTry = [
     ['model' => 'gemini-2.5-flash', 'version' => 'v1beta', 'name' => 'Gemini 2.5 Flash (v1beta) - Latest'],
@@ -110,4 +110,5 @@ if ($httpCode === 200) {
 echo "<hr>";
 echo "<p><a href='../index.php'>Back to Home</a></p>";
 ?>
+
 
